@@ -10,7 +10,7 @@ export function AirForce(props) {
   const { nodes, materials } = useGLTF("/airForce.glb");
   return (
     <group {...props} dispose={null}>
-      <group ref={boxRef} position={[0,.6, 0]} rotation={[-1.33, 0.174, 3.125]} scale={.8}>
+      <group ref={boxRef} position={[0,.0, 0]} rotation={[-1.33, 0.174, 3.125]} scale={.8}>
         <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <mesh
             castShadow

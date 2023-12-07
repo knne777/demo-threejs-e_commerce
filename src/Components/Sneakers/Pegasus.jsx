@@ -9,7 +9,7 @@ export function Pegasus(props) {
   const { nodes, materials } = useGLTF("/pegasus.glb");
   return (
     <group {...props} dispose={null}>
-      <group ref={boxRef} position={[0, 6, 0]} rotation={[2.621, 0.039, 0.01]} scale={1.35}>
+      <group ref={boxRef} position={[0, 5.5, 0]} rotation={[2.621, 0.039, 0.01]} scale={1.35}>
         <group rotation={[Math.PI, 0, 0]}>
           <mesh
             castShadow

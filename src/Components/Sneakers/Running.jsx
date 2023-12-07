@@ -11,7 +11,7 @@ export function Running(props) {
   return (
     <group {...props} dispose={null}>
       <group
-        position={[0, .5, -0.573]}
+        position={[0, .0, -0.573]}
         rotation={[-1.448, -0.858, 0.111]}
         scale={0.20}
         ref={boxRef}
