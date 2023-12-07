@@ -39,8 +39,6 @@ export function Sliders({ Models }) {
           </Carousel.Item>
         )
       })}
-
-
     </Carousel>
   );
 }
